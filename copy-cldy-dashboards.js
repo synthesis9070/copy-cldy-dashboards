@@ -59,7 +59,7 @@ async function httpRequest(url, options = {}) {
 /* ------------------------------------------------------------
  * Load configuration file
  * ---------------------------------------------------------- */
-const configPath = path.join(__dirname, "./cloudability.config.json");
+const configPath = path.join(__dirname, "./copy-cldy-dashboards.config.json");
 
 if (!fs.existsSync(configPath)) {
   console.error("❌ Missing configuration file:", configPath);
@@ -140,6 +140,7 @@ const DEST_HEADERS = buildHeaders(config.destination.dest_token);
           body: JSON.stringify({
             name: entry.destinationDashboardName,
             owned_by_user: true,
+            star: "false",
           })
         }
       );
@@ -198,11 +199,11 @@ const DEST_HEADERS = buildHeaders(config.destination.dest_token);
             }
           );
 
-          console.log(` ✅ Widget copied: ${widget.name}`);
+          console.log(`   ✅ Widget copied: ${widget.name}`);
           await wait(config.defaults?.widgetPostDelayMs || 1500);
 
         } catch (err) {
-          console.error(` ❌ Widget failed: ${widget.name}`);
+          console.error(`   ❌ Widget failed: ${widget.name}`);
           console.error(err.message);
         }
       }
