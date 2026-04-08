@@ -22,10 +22,8 @@ The tool is intentionally designed to favor simplicity, safety, and reusability.
 
 ## Project Structure
 
-```text
 copy-cldy-dashboards/
-├── bin/
-│   └── copy-cldy-dashboards.js
+├── copy-cldy-dashboard.js
 ├── config/
 │   └── cloudability.config.json
 ├── dashboards.txt
