@@ -1,0 +1,13 @@
+
+{
+  "name": "copy-cldy-dashboards",
+  "version": "1.0.0",
+  "description": "CLI tool to copy Cloudability dashboards and widgets between tenants",
+  "bin": {
+    "copy-cldy-dashboards": "./copy-cldy-dashboards.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": { }
+}
