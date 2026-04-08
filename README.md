@@ -15,11 +15,6 @@ The tool is intentionally designed to favor simplicity, safety, and reusability.
 - Safely handles the new Dashboard Tabs API by placing widgets into the default tab
 - Supports copying multiple dashboards in a single execution
 
-## What the Tool Does NOT Do
-
-- Does not recreate dashboard tabs in the current version
-- Does not modify existing dashboards in the destination tenant
-
 ## How to setup and use the CLI
 1. Open Terminal (MacOS / Linux) or Command Prompt / PowerShell (Windows) and run:
    - node --version
