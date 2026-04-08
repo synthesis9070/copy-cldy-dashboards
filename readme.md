@@ -40,6 +40,6 @@ The tool is intentionally designed to favor simplicity, safety, and reusability.
    - copy-cldy-dashboards.config.json    <---- Config file to configure API endpoints and tokens
    - dashboards.txt                      <---- Append dashboard IDs and target name of dashboard
 
-3. Inside the folder, run "node copy-cldy-dashboards.js" and auto-magically copy the dashboard and widgets
+3. Inside the folder, run "node copy-cldy-dashboards.js" and watch it auto-magically copy the dashboard and widgets
 
 4. That’s it 🎉
