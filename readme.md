@@ -19,12 +19,3 @@ The tool is intentionally designed to favor simplicity, safety, and reusability.
 
 - Does not recreate dashboard tabs in the current version
 - Does not modify existing dashboards in the destination tenant
-
-## Project Structure
-
-copy-cldy-dashboards/
-├── copy-cldy-dashboard.js
-├── config/
-│   └── cloudability.config.json
-├── dashboards.txt
-├── package.json

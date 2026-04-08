@@ -59,7 +59,7 @@ async function httpRequest(url, options = {}) {
 /* ------------------------------------------------------------
  * Load configuration file
  * ---------------------------------------------------------- */
-const configPath = path.join(__dirname, "./config/cloudability.config.json");
+const configPath = path.join(__dirname, "./cloudability.config.json");
 
 if (!fs.existsSync(configPath)) {
   console.error("❌ Missing configuration file:", configPath);
