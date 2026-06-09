@@ -9,7 +9,7 @@ dashboard-debug.json
 copy-cldy-dashboards.config.json
 
 # old files
-copy-cldy-dashboard (org).js
+copy-cldy-dashboards-org.js
 
 # -- folders
 00 - Implementation Plan
