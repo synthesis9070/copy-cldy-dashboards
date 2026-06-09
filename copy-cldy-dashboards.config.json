@@ -1,11 +1,11 @@
 {
   "source": {
     "src_endpoint": "https://api.cloudability.com",
-    "src_token": "sourceUser:sourceApiToken"
+    "src_token": "uhc7o5wQCKMsgJC43YwLq3Ap-to="
   },
   "destination": {
-    "dest_endpoint": "https://api-au.cloudability.com",
-    "dest_token": "destUser:destApiToken"
+    "dest_endpoint": "https://api.cloudability.com",
+    "dest_token": "PvViF9q8uvsQju35XdWo13R9tjM="
   },
   "defaults": {
     "widgetPostDelayMs": 1500

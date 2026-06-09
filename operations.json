@@ -1,0 +1,50 @@
+[
+  {
+    "enabled": false,
+    "mode": "dashboard-copy",
+    "source_dashboard_id": 870396,
+    "new_dashboard_name": "Executive"
+  },
+
+  {
+    "enabled": false,
+    "mode": "full-tab-to-existing-dashboard",
+    "source_dashboard_id": 2185177,
+    "source_tab_name": "Default",
+    "destination_dashboard_id": 117177,
+    "new_tab_name": "AI v2"
+  },
+
+  {
+    "enabled": false,
+    "mode": "full-tab-to-new-dashboard",
+    "source_dashboard_id": 835521,
+    "source_tab_name": "test",
+    "new_dashboard_name": "Savings Dashboard"
+  },
+
+  {
+    "enabled": true,
+    "mode": "widgets-to-existing-tab",
+    "source_dashboard_id": 835521,
+    "source_widget_ids": [
+      18154785
+    ],
+
+    "destination_dashboard_id": 117177,
+    "destination_tab_id": "2989691"
+  },
+
+  {
+    "enabled": false,
+    "mode": "widgets-to-new-tab",
+    "source_dashboard_id": 835521,
+    "source_widget_ids": [
+      18154418,
+      18154387
+    ],
+
+    "destination_dashboard_id": 117177,
+    "new_tab_name": "test 2"
+  }
+]

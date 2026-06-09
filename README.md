@@ -1,6 +1,6 @@
 # copy-cldy-dashboards
 
-A simple, reusable command-line tool to copy Cloudability dashboards and widgets from one tenant to another.
+A simple, reusable command-line tool to copy Cloudability dashboards / tabs and widgets from one tenant to another.
 
 ## Purpose
 
@@ -14,6 +14,11 @@ The tool is intentionally designed to favor simplicity, safety, and reusability.
 - Recreates dashboards and widgets using Cloudability internal APIs
 - Safely handles the new Dashboard Tabs API by placing widgets into the default tab
 - Supports copying multiple dashboards in a single execution
+- Full Tab Copy to Existing Dashboard where it copy all widgets from a source tab into a newly created tab in an existing dashboard
+- Full Tab Copy to New Dashbard where it creates a new dashboard and copy an entire tab into it
+- Partial Widge Copy where it copy only selected widgets into a new tab or an existing tab
+- Widgets can be created while preserving tab placement, layout positioning, visualization settings
+
 
 ## How to setup and use the CLI
 1. Open Terminal (MacOS / Linux) or Command Prompt / PowerShell (Windows) and run:
