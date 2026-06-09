@@ -1,11 +1,11 @@
 {
   "source": {
     "src_endpoint": "https://api.cloudability.com",
-    "src_token": "uhc7o5wQCKMsgJC43YwLq3Ap-to="
+    "src_token": "your_source_token_here"
   },
   "destination": {
     "dest_endpoint": "https://api.cloudability.com",
-    "dest_token": "PvViF9q8uvsQju35XdWo13R9tjM="
+    "dest_token": "your_destination_token_here"
   },
   "defaults": {
     "widgetPostDelayMs": 1500
