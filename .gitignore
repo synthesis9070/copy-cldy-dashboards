@@ -1,8 +1,15 @@
 # -- MacOS index files
 .DS_Store
-.env
+
+# debugging files
 *.log
 dashboard-debug.json
+
+# config files
+copy-cldy-dashboards.config.json
+
+# old files
+copy-cldy-dashboard (org).js
 
 # -- folders
 00 - Implementation Plan
